@@ -14,8 +14,13 @@ function CheckoutContent() {
   const searchParams = useSearchParams()
   const quantity = Number.parseInt(searchParams.get("quantity") || "1")
 
-  const ONLINE_PRICE = 799
-  const COD_PRICE = 799
+  const BASE_PRICE = 799
+  const COD_SHIPPING_FEE = 89
+ 
+
+
+
+
 
   const [paymentMethod, setPaymentMethod] = useState<"online" | "cod" | null>(ENABLE_ONLINE_PAYMENT ? null : "cod")
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -31,8 +36,14 @@ function CheckoutContent() {
     pinCode: "",
   })
 
-  const currentPrice = paymentMethod === "online" ? ONLINE_PRICE : paymentMethod === "cod" ? COD_PRICE : 0
-  const totalPrice = currentPrice * quantity
+  const basePrice = BASE_PRICE
+  const shippingFee = paymentMethod === "cod" ? COD_SHIPPING_FEE : 0
+  const subtotal = basePrice * quantity
+  const totalPrice = subtotal + shippingFee
+
+ 
+
+ 
 
   const deliveryDate = new Date()
   deliveryDate.setDate(deliveryDate.getDate() + 5)
@@ -134,7 +145,7 @@ function CheckoutContent() {
                           <h3 className="font-semibold text-sm md:text-base">Online Payment (Razorpay)</h3>
                         </div>
                         <p className="text-xs md:text-sm text-muted-foreground ml-7">Instant UPI, cards & wallets via Razorpay</p>
-                        <p className="text-base md:text-lg font-bold text-primary mt-2 ml-7">₹{ONLINE_PRICE}</p>
+                        <p className="text-base md:text-lg font-bold text-primary mt-2 ml-7">₹{BASE_PRICE}</p>
                       </div>
                     ) : (
                       <div className="p-3 md:p-4 border-2 border-dashed border-border rounded-lg bg-muted/30 text-sm md:text-base text-muted-foreground">
@@ -155,8 +166,8 @@ function CheckoutContent() {
                         <input type="radio" checked={paymentMethod === "cod"} readOnly />
                         <h3 className="font-semibold text-sm md:text-base">Cash on Delivery</h3>
                       </div>
-                      <p className="text-xs md:text-sm text-muted-foreground ml-7">Pay on delivery</p>
-                      <p className="text-base md:text-lg font-bold text-primary mt-2 ml-7">₹{COD_PRICE}</p>
+                        <p className="text-xs md:text-sm text-muted-foreground ml-7">Pay on delivery</p>
+                        <p className="text-base md:text-lg font-bold text-primary mt-2 ml-7">₹{BASE_PRICE} + ₹{COD_SHIPPING_FEE} shipping</p>
                     </div>
                   </div>
                 </div>
@@ -312,7 +323,7 @@ function CheckoutContent() {
                 <div className="space-y-3 md:space-y-4 pb-4 md:pb-6 border-b border-border mb-4 md:mb-6 text-sm md:text-base">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Grow Essence Serum × {quantity}</span>
-                    <span className="font-semibold">₹{currentPrice > 0 ? totalPrice : "-"}</span>
+                    <span className="font-semibold">₹{basePrice > 0 ? subtotal : "-"}</span>
                   </div>
                 </div>
 
@@ -323,7 +334,7 @@ function CheckoutContent() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Shipping</span>
-                    <span className="font-semibold">FREE</span>
+                    <span className="font-semibold">{shippingFee > 0 ? `₹${shippingFee}` : "FREE"}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Tax</span>
@@ -334,7 +345,7 @@ function CheckoutContent() {
                 <div className="flex justify-between items-center mb-4 md:mb-6">
                   <span className="font-bold text-base md:text-lg">Total</span>
                   <span className="text-2xl md:text-3xl font-bold text-primary">
-                    ₹{currentPrice > 0 ? totalPrice : "-"}
+                    ₹{basePrice > 0 ? totalPrice : "-"}
                   </span>
                 </div>
 

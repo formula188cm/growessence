@@ -71,7 +71,7 @@ function Navbar() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "font-bold text-lg hidden sm:block text-foreground",
-                                    children: "Grow Natural"
+                                    children: "Grow Essence"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/components/navbar.tsx",
                                     lineNumber: 19,
@@ -278,7 +278,7 @@ function Footer() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "font-bold",
-                                            children: "Grow Natural"
+                                            children: "Grow Essence"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/components/footer.tsx",
                                             lineNumber: 11,
@@ -560,10 +560,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$
 "use client";
 ;
 ;
-const WHATSAPP_NUMBER = "8989252740";
+const WHATSAPP_NUMBER = "7304217506";
 function WhatsAppButton() {
     const openWhatsApp = ()=>{
-        const message = encodeURIComponent("Hi, I need help with Grow Natural");
+        const message = encodeURIComponent("Hi, I need help with Grow Essence");
         window.open(`https://wa.me/91${WHATSAPP_NUMBER}?text=${message}`, "_blank");
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -614,13 +614,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$
 ;
 ;
 ;
-const WHATSAPP_NUMBER = "918989252740";
-const SUPPORT_EMAIL = "care@grownatural.in";
+const ENABLE_ONLINE_PAYMENT = false;
+const WHATSAPP_NUMBER = "917304217506";
+const SUPPORT_EMAIL = "growessence09@gmail.com";
 const RAZORPAY_LINKS = {
-    799: "https://rzp.io/l/grownatural-799",
-    1598: "https://rzp.io/l/grownatural-1598",
-    2397: "https://rzp.io/l/grownatural-2397",
-    3196: "https://rzp.io/l/grownatural-3196"
+    799: "https://rzp.io/l/growessence-799",
+    1598: "https://rzp.io/l/growessence-1598",
+    2397: "https://rzp.io/l/growessence-2397",
+    3196: "https://rzp.io/l/growessence-3196"
 };
 function PaymentContent() {
     const searchParams = (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSearchParams"])();
@@ -629,9 +630,10 @@ function PaymentContent() {
     const quantity = searchParams.get("quantity") || "1";
     const [showSuccess, setShowSuccess] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const totalNumber = Number(total) || 0;
-    const razorpayLink = RAZORPAY_LINKS[totalNumber];
+    const razorpayLink = ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : undefined;
+    const onlineTemporarilyDisabled = !ENABLE_ONLINE_PAYMENT && method === "online";
     const openWhatsApp = ()=>{
-        const message = `Hi, I need help with my Grow Natural order (₹${total})`;
+        const message = `Hi, I need help with my Grow Essence order (₹${total})`;
         window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`, "_blank");
     };
     if (showSuccess) {
@@ -640,7 +642,7 @@ function PaymentContent() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$components$2f$navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                    lineNumber: 39,
+                    lineNumber: 42,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -654,12 +656,12 @@ function PaymentContent() {
                                     className: "w-16 h-16 text-green-600"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 46,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                lineNumber: 42,
+                                lineNumber: 45,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -667,15 +669,15 @@ function PaymentContent() {
                                 children: "Order Successful!"
                             }, void 0, false, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                lineNumber: 45,
+                                lineNumber: 48,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-muted-foreground mb-4",
-                                children: "Thank you for choosing Grow Natural. Our care team will reach out shortly with your order details and tracking."
+                                children: "Thank you for choosing Grow Essence. Our care team will reach out shortly with your order details and tracking."
                             }, void 0, false, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                lineNumber: 46,
+                                lineNumber: 49,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -686,7 +688,7 @@ function PaymentContent() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                lineNumber: 49,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -697,7 +699,7 @@ function PaymentContent() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                lineNumber: 50,
+                                lineNumber: 53,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -708,20 +710,20 @@ function PaymentContent() {
                                         children: "Order Confirmation:"
                                     }, void 0, false, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 56,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: "Check your email for receipt and shipping details."
                                     }, void 0, false, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 57,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                lineNumber: 52,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -738,14 +740,14 @@ function PaymentContent() {
                                                 height: 20
                                             }, void 0, false, {
                                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                                lineNumber: 62,
+                                                lineNumber: 65,
                                                 columnNumber: 17
                                             }, this),
                                             "Chat on WhatsApp"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 61,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -754,40 +756,40 @@ function PaymentContent() {
                                         children: "Return to Home"
                                     }, void 0, false, {
                                         fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                        lineNumber: 65,
+                                        lineNumber: 68,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                lineNumber: 57,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                        lineNumber: 41,
+                        lineNumber: 44,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                    lineNumber: 40,
+                    lineNumber: 43,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$components$2f$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                    lineNumber: 74,
+                    lineNumber: 77,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$components$2f$whatsapp$2d$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppButton"], {}, void 0, false, {
                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                    lineNumber: 75,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-            lineNumber: 38,
+            lineNumber: 41,
             columnNumber: 7
         }, this);
     }
@@ -796,7 +798,7 @@ function PaymentContent() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$components$2f$navbar$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Navbar"], {}, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                lineNumber: 82,
+                lineNumber: 85,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -809,7 +811,7 @@ function PaymentContent() {
                             children: "Payment Method"
                         }, void 0, false, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                            lineNumber: 86,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -817,7 +819,7 @@ function PaymentContent() {
                             children: "Choose your preferred payment method to complete your order"
                         }, void 0, false, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                            lineNumber: 87,
+                            lineNumber: 90,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -831,7 +833,7 @@ function PaymentContent() {
                                             children: "Amount"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 92,
+                                            lineNumber: 95,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -842,13 +844,13 @@ function PaymentContent() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 93,
+                                            lineNumber: 96,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 91,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -859,7 +861,7 @@ function PaymentContent() {
                                             children: "Quantity"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 99,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -867,13 +869,13 @@ function PaymentContent() {
                                             children: quantity
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 100,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 95,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -884,7 +886,7 @@ function PaymentContent() {
                                             children: "Delivery"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -892,13 +894,13 @@ function PaymentContent() {
                                             children: "4-5 Days"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 104,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 99,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -909,30 +911,30 @@ function PaymentContent() {
                                             children: "Payment Type"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 107,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-lg font-bold capitalize",
-                                            children: method
+                                            children: onlineTemporarilyDisabled ? "online (unavailable)" : method
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 105,
+                                            lineNumber: 108,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                            lineNumber: 90,
+                            lineNumber: 93,
                             columnNumber: 11
                         }, this),
-                        method === "online" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        ENABLE_ONLINE_PAYMENT && method === "online" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "p-6 md:p-8 border-2 border-primary/30 rounded-xl bg-primary/5 mb-12",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -940,7 +942,7 @@ function PaymentContent() {
                                     children: "Pay Securely with Razorpay"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 112,
+                                    lineNumber: 117,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -948,7 +950,7 @@ function PaymentContent() {
                                     children: "Complete your UPI or card payment instantly through Razorpay. The payment link opens in a new tab."
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 113,
+                                    lineNumber: 118,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -962,7 +964,7 @@ function PaymentContent() {
                                                     children: "Amount Payable"
                                                 }, void 0, false, {
                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 124,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -973,13 +975,13 @@ function PaymentContent() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                                    lineNumber: 120,
+                                                    lineNumber: 125,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 123,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -990,7 +992,7 @@ function PaymentContent() {
                                                     children: "Quantity"
                                                 }, void 0, false, {
                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 128,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -998,56 +1000,22 @@ function PaymentContent() {
                                                     children: quantity
                                                 }, void 0, false, {
                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 129,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 127,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 117,
+                                    lineNumber: 122,
                                     columnNumber: 15
                                 }, this),
-                                razorpayLink ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: razorpayLink,
-                                            target: "_blank",
-                                            rel: "noopener noreferrer",
-                                            className: "inline-flex items-center justify-center w-full px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors",
-                                            children: [
-                                                "Pay ₹",
-                                                total,
-                                                " via Razorpay"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 130,
-                                            columnNumber: 19
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            onClick: ()=>{
-                                                setTimeout(()=>setShowSuccess(true), 1500);
-                                            },
-                                            className: "w-full px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition-colors",
-                                            children: "I've completed the payment"
-                                        }, void 0, false, {
-                                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 138,
-                                            columnNumber: 19
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 129,
-                                    columnNumber: 17
-                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                ("TURBOPACK compile-time falsy", 0) ? /*#__PURE__*/ "TURBOPACK unreachable" : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "p-4 bg-yellow-50 border border-yellow-200 rounded-lg text-sm text-yellow-900",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1055,7 +1023,7 @@ function PaymentContent() {
                                             children: "Payment link unavailable for this amount."
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 149,
+                                            lineNumber: 154,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1066,13 +1034,13 @@ function PaymentContent() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 150,
+                                            lineNumber: 155,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 153,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1080,13 +1048,98 @@ function PaymentContent() {
                                     children: "Tip: Save your Razorpay receipt or screenshot for quick confirmation with our team."
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 156,
+                                    lineNumber: 161,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                            lineNumber: 111,
+                            lineNumber: 116,
+                            columnNumber: 13
+                        }, this),
+                        onlineTemporarilyDisabled && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "p-6 md:p-8 border-2 border-yellow-300 rounded-xl bg-yellow-50 mb-12 text-center text-yellow-900 space-y-3",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    className: "text-2xl font-bold",
+                                    children: "Online payments are temporarily unavailable"
+                                }, void 0, false, {
+                                    fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                    lineNumber: 169,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    children: [
+                                        "We are currently accepting orders via Cash on Delivery only. Set ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
+                                            children: "ENABLE_ONLINE_PAYMENT"
+                                        }, void 0, false, {
+                                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                            lineNumber: 171,
+                                            columnNumber: 82
+                                        }, this),
+                                        " to ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
+                                            children: "true"
+                                        }, void 0, false, {
+                                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                            lineNumber: 171,
+                                            columnNumber: 120
+                                        }, this),
+                                        " in",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
+                                            children: " app/payment/page.tsx"
+                                        }, void 0, false, {
+                                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                            lineNumber: 172,
+                                            columnNumber: 17
+                                        }, this),
+                                        " and ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
+                                            children: "app/checkout/page.tsx"
+                                        }, void 0, false, {
+                                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                            lineNumber: 172,
+                                            columnNumber: 56
+                                        }, this),
+                                        " whenever you want to reopen Razorpay checkout."
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                    lineNumber: 170,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "flex flex-col sm:flex-row gap-3 justify-center",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                            href: `/checkout?quantity=${quantity}`,
+                                            className: "px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors",
+                                            children: "Switch to Cash on Delivery"
+                                        }, void 0, false, {
+                                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                            lineNumber: 175,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            onClick: openWhatsApp,
+                                            className: "px-6 py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary/5 transition-colors",
+                                            children: "Chat with Support"
+                                        }, void 0, false, {
+                                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                            lineNumber: 181,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                                    lineNumber: 174,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
+                            lineNumber: 168,
                             columnNumber: 13
                         }, this),
                         method === "cod" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1096,7 +1149,7 @@ function PaymentContent() {
                                     className: "w-16 h-16 text-green-600 mx-auto mb-4"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 164,
+                                    lineNumber: 193,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1104,7 +1157,7 @@ function PaymentContent() {
                                     children: "Cash on Delivery Selected"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 165,
+                                    lineNumber: 194,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1116,7 +1169,7 @@ function PaymentContent() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 166,
+                                    lineNumber: 195,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1127,13 +1180,13 @@ function PaymentContent() {
                                     children: "Confirm COD Order"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 171,
+                                    lineNumber: 200,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                            lineNumber: 163,
+                            lineNumber: 192,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1144,7 +1197,7 @@ function PaymentContent() {
                                     children: "Need Help?"
                                 }, void 0, false, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 184,
+                                    lineNumber: 213,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1161,14 +1214,14 @@ function PaymentContent() {
                                                     height: 20
                                                 }, void 0, false, {
                                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                                    lineNumber: 190,
+                                                    lineNumber: 219,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Chat on WhatsApp"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 186,
+                                            lineNumber: 215,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1177,46 +1230,46 @@ function PaymentContent() {
                                             children: "Email Support"
                                         }, void 0, false, {
                                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                            lineNumber: 193,
+                                            lineNumber: 222,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                                    lineNumber: 185,
+                                    lineNumber: 214,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                            lineNumber: 183,
+                            lineNumber: 212,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                    lineNumber: 85,
+                    lineNumber: 88,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                lineNumber: 84,
+                lineNumber: 87,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$components$2f$footer$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Footer"], {}, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                lineNumber: 204,
+                lineNumber: 233,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$components$2f$whatsapp$2d$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["WhatsAppButton"], {}, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-                lineNumber: 205,
+                lineNumber: 234,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-        lineNumber: 81,
+        lineNumber: 84,
         columnNumber: 5
     }, this);
 }
@@ -1226,17 +1279,17 @@ function PaymentPage() {
             children: "Loading..."
         }, void 0, false, {
             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-            lineNumber: 212,
+            lineNumber: 241,
             columnNumber: 25
         }, void 0),
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PaymentContent, {}, void 0, false, {
             fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-            lineNumber: 213,
+            lineNumber: 242,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/formula188cmtabletnewdesign-main/app/payment/page.tsx",
-        lineNumber: 212,
+        lineNumber: 241,
         columnNumber: 5
     }, this);
 }

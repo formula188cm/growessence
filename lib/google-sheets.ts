@@ -1,5 +1,5 @@
 const GOOGLE_SCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbzM6s4P6vCSq8U5RbzcfdxePbyjICx-3DswgcREfjWJD7xKHXNdH9-He8mjhSFjlMjJFA/exec"
+  "https://script.google.com/macros/s/AKfycbxXjEkrObDRzUN3Cm31fAbzmT6P9dpbcbXrN6VccVVXaepimrs2ynUhk5bJzVMm-_JPVw/exec"
 
 // Generate a unique order ID
 export function generateOrderId() {
@@ -18,7 +18,7 @@ export async function submitToGoogleSheets(data, orderId, sheetName = "Sheet1") 
       address: data.address,
       city: data.city,
       state: data.state,
-      pincode: data.zipCode,
+      pincode: data.pinCode,
       landmark: "",
       quantity: data.quantity,
       total: data.totalPrice,

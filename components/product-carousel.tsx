@@ -121,12 +121,13 @@ export function ProductCarousel({ slides = defaultSlides }: { slides?: CarouselS
               index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-98"
             }`}
           >
-            <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black p-4 sm:p-6 md:p-10 overflow-hidden">
+            <div className="relative w-full h-full flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black p-4 sm:p-6 lg:p-12 overflow-hidden">
               <img
                 src={slide.image || "/placeholder.svg"}
                 alt={slide.title}
-                className="w-full h-full object-cover object-bottom drop-shadow-2xl transition-transform duration-[1500ms] ease-out group-hover:scale-[1.02]"
+                className="max-h-[88%] max-w-[88%] sm:max-h-[90%] sm:max-w-[90%] lg:max-h-[82%] lg:max-w-[82%] object-contain drop-shadow-2xl transition-transform duration-[1500ms] ease-out group-hover:scale-[1.01]"
               />
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 sm:h-36 bg-gradient-to-t from-black via-black/70 to-transparent" />
             </div>
           </div>
         ))}

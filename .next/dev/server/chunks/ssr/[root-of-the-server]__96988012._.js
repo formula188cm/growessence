@@ -640,17 +640,26 @@ function ProductCarousel({ slides = defaultSlides }) {
                 children: slides.map((slide, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: `absolute inset-0 transition-all duration-1000 ease-in-out flex items-center justify-center ${index === currentSlide ? "opacity-100 scale-100" : "opacity-0 scale-98"}`,
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-full h-full flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black p-4 sm:p-6 md:p-10 overflow-hidden",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: slide.image || "/placeholder.svg",
-                                alt: slide.title,
-                                className: "w-full h-full object-cover object-bottom drop-shadow-2xl transition-transform duration-[1500ms] ease-out group-hover:scale-[1.02]"
-                            }, void 0, false, {
-                                fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                                lineNumber: 125,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
+                            className: "relative w-full h-full flex items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black p-4 sm:p-6 lg:p-12 overflow-hidden",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                    src: slide.image || "/placeholder.svg",
+                                    alt: slide.title,
+                                    className: "max-h-[88%] max-w-[88%] sm:max-h-[90%] sm:max-w-[90%] lg:max-h-[82%] lg:max-w-[82%] object-contain drop-shadow-2xl transition-transform duration-[1500ms] ease-out group-hover:scale-[1.01]"
+                                }, void 0, false, {
+                                    fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
+                                    lineNumber: 125,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "pointer-events-none absolute inset-x-0 bottom-0 h-32 sm:h-36 bg-gradient-to-t from-black via-black/70 to-transparent"
+                                }, void 0, false, {
+                                    fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
+                                    lineNumber: 130,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
                             lineNumber: 124,
                             columnNumber: 13
@@ -672,7 +681,7 @@ function ProductCarousel({ slides = defaultSlides }) {
                 children: "❮"
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 135,
+                lineNumber: 136,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -682,7 +691,7 @@ function ProductCarousel({ slides = defaultSlides }) {
                 children: "❯"
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 143,
+                lineNumber: 144,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -693,12 +702,12 @@ function ProductCarousel({ slides = defaultSlides }) {
                         "aria-label": `Go to slide ${index + 1}`
                     }, index, false, {
                         fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                        lineNumber: 153,
+                        lineNumber: 154,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 151,
+                lineNumber: 152,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$formula188cmtabletnewdesign$2d$main$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -710,7 +719,7 @@ function ProductCarousel({ slides = defaultSlides }) {
                 ]
             }, void 0, true, {
                 fileName: "[project]/formula188cmtabletnewdesign-main/components/product-carousel.tsx",
-                lineNumber: 166,
+                lineNumber: 167,
                 columnNumber: 7
             }, this)
         ]

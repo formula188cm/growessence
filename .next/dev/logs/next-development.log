@@ -1,17 +1,8 @@
-[00:00:11.041] Server  LOG      ✓ Ready in 8.7s
-[00:00:14.364] Server  LOG      ○ Compiling / ...
-[00:00:32.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:50.423] Server  LOG      ○ Compiling /product ...
-[00:07:05.098] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:54.326] Server  LOG      ✓ Compiled in 1421ms
-[00:08:07.685] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:25.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:25.855] Browser ERROR   unhandledRejection: Error: Failed to load chunk /_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_7036bc45._.js from module [turbopack]/browser/dev/hmr-client/hmr-client.ts [app-client] (ecmascript, async loader)
-[00:08:26.366] Browser ERROR   uncaughtError: Error: Failed to load chunk /_next/static/chunks/4003a_a62d8ad9._.js from module [project]/formula188cmtabletnewdesign-main/node_modules/next/dist/compiled/react-server-dom-turbopack/cjs/react-server-dom-turbopack-client.browser.development.js [app-client] (ecmascript)
-[00:08:36.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:59.899] Server  LOG      ✓ Compiled in 612ms
-[00:09:19.626] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:54.677] Server  LOG      ✓ Compiled in 479ms
-[00:13:43.856] Server  LOG      ✓ Compiled in 783ms
-[00:14:09.624] Server  LOG      ✓ Compiled in 3.9s
-[00:15:41.270] Server  LOG      ✓ Compiled in 1193ms
+[00:00:10.755] Server  LOG      ✓ Ready in 8s
+[00:00:22.381] Server  LOG      ○ Compiling / ...
+[00:00:35.968] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:46.805] Server  LOG      ○ Compiling /product ...
+[00:01:44.853] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:10.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:48.824] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:37.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
