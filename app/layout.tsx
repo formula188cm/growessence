@@ -43,4 +43,18 @@ export default function RootLayout({
         <noscript>
           <img
             height="1"
-            wid
+            width="1"
+            style={{ display: "none" }}
+            src="https://www.facebook.com/tr?id=920507383865310&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
+        {/* End Meta Pixel Code */}
+      </head>
+
+      <body className="font-sans antialiased">
+        {children}
+      </body>
+    </html>
+  )
+}
